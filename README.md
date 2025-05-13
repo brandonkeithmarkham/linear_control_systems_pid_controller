@@ -19,7 +19,7 @@ The goal of this project was to design a PID controller, tune it using the Ziegl
 
 ## 📄 Report
 The full report, including code snippets, simulation plots, and analysis, can be found here:
-[Final_Report.pdf](./Final_Report.pdf)
+👉 [**Final Report**](./final_report/PID%20Project.pdf)
 
 ## 🔖 Notes
 All code and images are embedded within the report for clarity and presentation purposes.
