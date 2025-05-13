@@ -1,34 +1,29 @@
-# PID Controller Design Project
+# Linear Control Systems Project
 
-This project demonstrates the design and analysis of a PID (Proportional-Integral-Derivative) controller for a feedback control system, developed as part of my undergraduate Linear Control Systems course.
+This repository contains the final report for my Linear Control Systems project, focusing on the design, tuning, and analysis of a PID controller.
 
-## 📋 Project Overview
-The goal of this project was to design a PID controller to meet specific performance criteria provided by the course instructor. The controller was designed and tuned using a combination of:
-- **LTspice simulations**
-- **MATLAB analysis**
-- **Theoretical calculations**
-- **Second-order system approximations**
-
-## ⚙️ Objectives
-- Design a PID controller to meet designated performance specs (settling time, overshoot, stability).
-- Validate the design through LTspice circuit simulation.
-- Analyze system response and fine-tune controller gains using MATLAB tools.
-- Apply classical control theory and second-order approximations for accurate tuning.
+## 📄 Project Overview
+The goal of this project was to design a PID controller, tune it using the Ziegler–Nichols method, and analyze system performance through both MATLAB simulations and LTspice circuit models. Emphasis was placed on understanding the differences between theoretical models and real-world implementations.
 
 ## 🛠 Tools & Methods
-- **LTspice**: Circuit-level simulation of the PID implementation.
-- **MATLAB Control Toolbox**: Frequency and time-domain analysis, gain tuning, step response.
-- **Manual Calculations**: Root locus, Bode plot analysis, pole placement, and system approximations.
+- MATLAB (theoretical modeling & simulation)
+- LTspice (circuit-level simulation)
+- Routh-Hurwitz Stability Criterion
+- Ziegler–Nichols PID Tuning Method
 
-## 📂 Repository Structure
+## 📊 Key Outcomes
+- Achieved target overshoot specification
+- Improved time-to-peak by over 90%
+- Verified controller performance through simulation
+- Analyzed discrepancies between mathematical models and practical circuits
 
+## 📄 Report
+The full report, including code snippets, simulation plots, and analysis, can be found here:
+[Final_Report.pdf](./Final_Report.pdf)
 
+## 🔖 Notes
+All code and images are embedded within the report for clarity and presentation purposes.
 
-
-
-## 📊 Results
-- Achieved desired system performance specs as per project requirements.
-- Validated controller behavior through both simulation and theoretical analysis.
 
 ## 📝 Author
 Brandon Markham  
